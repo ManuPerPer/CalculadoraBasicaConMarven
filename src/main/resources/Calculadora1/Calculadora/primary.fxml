@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="402.0" prefWidth="404.0" spacing="20.0" style="-fx-background-color: #BD804C;" stylesheets="@cssBotones.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculadora1.Calculadora.PrimaryController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
+   <children>
+      <TextField fx:id="pantalla" alignment="CENTER_RIGHT" editable="false" prefHeight="61.0" prefWidth="189.0" stylesheets="@cssBotones.css">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font></TextField>
+      <BorderPane minHeight="200.0" prefHeight="277.0" prefWidth="346.0">
+         <center>
+            <GridPane prefHeight="244.0" prefWidth="340.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btn1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="1" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="2" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="3" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="4" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn5" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="5" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn6" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="6" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn7" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="7" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn8" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="8" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btn9" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="9" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btnReset" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="/" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btnMultiplicar" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="*" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btnResta" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="-" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btnSuma" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="+" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btnComa" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="," textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btn0" mnemonicParsing="false" onAction="#click" prefHeight="35.0" prefWidth="70.0" stylesheets="@cssBotones.css" text="0" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect></Button>
+                  <Button fx:id="btnResultado" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" text="=" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                     <effect>
+                        <DisplacementMap>
+                           <mapData>
+                              <FloatMap />
+                           </mapData>
+                        </DisplacementMap>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@cssBotones.css" />
+                        <URL value="@csOperadores.css" />
+                     </stylesheets></Button>
+                  <Button fx:id="btnReset" mnemonicParsing="false" onAction="#click" prefHeight="38.0" prefWidth="60.0" stylesheets="@csOperadores.css" text="C" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </GridPane>
+         </center>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <bottom>
+            <Button fx:id="btnInfo" mnemonicParsing="false" onAction="#clickAcerca" prefHeight="43.0" prefWidth="336.0" text="ACERCA DE" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="5.0" />
+               </BorderPane.margin>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</VBox>

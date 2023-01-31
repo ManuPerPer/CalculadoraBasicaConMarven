@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField prefHeight="152.0" prefWidth="362.0" text="Esta calculadora esta hecha por Manuel Perez Perez" />
+   </children>
+</AnchorPane>
